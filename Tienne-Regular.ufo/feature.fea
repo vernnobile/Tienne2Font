@@ -1,0 +1,80 @@
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    @kc0_first_1 = [\V ];
+    @kc0_first_2 = [\W ];
+    @kc0_first_3 = [\Y ];
+    @kc0_second_1 = [\a \c \d \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \ccedilla ];
+    @kc0_second_2 = [\ograve \oacute \ocircumflex \otilde \odieresis \oslash ];
+    pos @kc0_first_1 @kc0_second_1 -142;
+    pos @kc0_first_1 @kc0_second_2 -119;
+    pos @kc0_first_2 @kc0_second_1 -96;
+    pos @kc0_first_2 @kc0_second_2 -75;
+    pos @kc0_first_3 @kc0_second_1 -275;
+    pos @kc0_first_3 @kc0_second_2 -264;
+} kernHorizontalKerninglookup0;
+
+feature kern {
+
+  script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+  script grek;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+  script latn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\uni0000 \uni000D \uni0002 \uni0009 \uni000A \space \exclam 
+	\quotedbl \numbersign \dollar \percent \ampersand \quotesingle \parenleft 
+	\parenright \asterisk \plus \comma \hyphen \period \slash \zero \one \two \three 
+	\four \five \six \seven \eight \nine \colon \semicolon \less \equal \greater 
+	\question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z 
+	\bracketleft \backslash \bracketright \asciicircum \underscore \grave \a \b \c \d 
+	\e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright 
+	\asciitilde \uni00A0 \exclamdown \cent \sterling \currency \yen \brokenbar 
+	\section \dieresis \copyright \ordfeminine \guillemotleft \logicalnot \uni00AD 
+	\registered \macron \degree \plusminus \twosuperior \threesuperior \acute \mu 
+	\paragraph \periodcentered \cedilla \onesuperior \ordmasculine 
+	\guillemotright \onequarter \onehalf \threequarters \questiondown \Agrave 
+	\Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute 
+	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
+	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
+	\acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
+	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde 
+	\ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis \Abreve \abreve \Aogonek 
+	\aogonek \Cacute \cacute \Ccaron \ccaron \Dcaron \dcaron \Dcroat \dcroat \Eogonek 
+	\eogonek \Ecaron \ecaron \hbar \Itilde \itilde \dotlessi \IJ \ij \Jcircumflex 
+	\jcircumflex \kcommaaccent \kgreenlandic \Lacute \lacute \Lcaron \lcaron 
+	\Ldotaccent \ldot \Lslash \lslash \Nacute \nacute \Ncaron \ncaron \Ohungarumlaut 
+	\ohungarumlaut \OE \oe \Racute \racute \Rcommaaccent \rcommaaccent \Rcaron 
+	\rcaron \Sacute \sacute \Scedilla \scedilla \Scaron \scaron \Tcommaaccent 
+	\tcommaaccent \Tcaron \tcaron \Uring \uring \Uhungarumlaut \uhungarumlaut 
+	\Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron \florin 
+	\uni0200 \uni0201 \uni0202 \uni0203 \uni0204 \uni0205 \uni0206 \uni0207 \uni0208 
+	\uni0209 \uni020A \uni020B \uni020C \uni020D \uni020E \uni020F \uni0210 \uni0211 
+	\uni0212 \uni0213 \uni0214 \uni0215 \uni0216 \uni0217 \uni0218 \uni0219 \uni021A 
+	\uni021B \dotlessj \circumflex \caron \uni02C9 \breve \dotaccent \ring \ogonek 
+	\tilde \hungarumlaut \dotaccentcmb \uni030F \uni0311 \uni0326 \uni03A9 \uni03BC 
+	\pi \endash \emdash \quoteleft \quoteright \quotesinglbase \quotedblleft 
+	\quotedblright \quotedblbase \dagger \daggerdbl \bullet \ellipsis \perthousand 
+	\guilsinglleft \guilsinglright \fraction \foursuperior \Euro \trademark \Omega 
+	\estimated \partialdiff \Delta \product \summation \minus \uni2215 \uni2219 
+	\radical \infinity \integral \approxequal \notequal \lessequal \greaterequal 
+	\lozenge \fi \fl \nonmarkingreturn \NULL \glyph265 \glyph268 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

@@ -1,0 +1,92 @@
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    @kc0_first_1 = [\V \W \Y ];
+    @kc0_second_1 = [\c \d \e \o \q \ccedilla \egrave \eacute \ecircumflex \edieresis \ograve \oacute 
+	\ocircumflex \otilde \odieresis \oslash \oe \uni0205 \uni0207 \uni020D 
+	\uni020F ];
+    @kc0_second_2 = [\a \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \uni0201 \uni0203 ];
+    pos @kc0_first_1 @kc0_second_1 -158;
+    pos @kc0_first_1 @kc0_second_2 -189;
+  subtable;
+    @kc1_first_1 = [\T ];
+    @kc1_second_1 = [\a \c \e \o \q \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \ccedilla 
+	\egrave \eacute \ecircumflex \edieresis \ograve \oacute \ocircumflex 
+	\otilde \odieresis \oslash \uni0201 \uni0203 \uni0205 \uni0207 \uni020D 
+	\uni020F ];
+    @kc1_second_2 = [];
+    pos @kc1_first_1 @kc1_second_1 -135;
+    pos @kc1_first_1 @kc1_second_2 -190;
+  subtable;
+    @kc2_first_1 = [\r ];
+    @kc2_second_1 = [\a \d \e \o \q \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \egrave 
+	\eacute \ecircumflex \edieresis \ograve \oacute \ocircumflex \otilde 
+	\odieresis \oslash \oe \uni0201 \uni0203 \uni0205 \uni0207 \uni020D 
+	\uni020F ];
+    @kc2_second_2 = [\c \ccedilla ];
+    pos @kc2_first_1 @kc2_second_1 -28;
+    pos @kc2_first_1 @kc2_second_2 -27;
+} kernHorizontalKerninglookup0;
+
+feature kern {
+
+  script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+  script grek;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+  script latn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.null \nonmarkingreturn \uni0001 \uni0002 \uni0003 \uni0004 
+	\uni0005 \uni0006 \uni0007 \uni0008 \uni0009 \uni0010 \uni0011 \uni0012 \uni0013 
+	\uni0014 \uni0015 \uni0016 \uni0017 \uni0018 \uni0019 \space \exclam \quotedbl 
+	\numbersign \dollar \percent \ampersand \quotesingle \parenleft \parenright 
+	\asterisk \plus \comma \hyphen \period \slash \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon \semicolon \less \equal \greater \question \at \A \B 
+	\C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash 
+	\bracketright \asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o 
+	\p \q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde \uni00A0 
+	\exclamdown \cent \sterling \currency \yen \brokenbar \section \dieresis 
+	\copyright \ordfeminine \guillemotleft \logicalnot \uni00AD \registered 
+	\macron \degree \plusminus \twosuperior \threesuperior \acute \mu \paragraph 
+	\periodcentered \cedilla \onesuperior \ordmasculine \guillemotright 
+	\onequarter \onehalf \threequarters \questiondown \Agrave \Aacute \Acircumflex 
+	\Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
+	\Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute 
+	\Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
+	\Udieresis \Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde 
+	\adieresis \aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
+	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex 
+	\otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis 
+	\yacute \thorn \ydieresis \hbar \Itilde \itilde \dotlessi \IJ \ij \Jcircumflex 
+	\jcircumflex \kcommaaccent \kgreenlandic \Ldot \ldot \Lslash \lslash \Nacute 
+	\nacute \OE \oe \Racute \Rcommaaccent \rcommaaccent \Rcaron \rcaron \Scaron 
+	\scaron \Ydieresis \Zcaron \zcaron \florin \uni0200 \uni0201 \uni0202 \uni0203 
+	\uni0204 \uni0205 \uni0206 \uni0207 \uni0208 \uni0209 \uni020A \uni020B \uni020C 
+	\uni020D \uni020E \uni020F \uni0210 \uni0211 \uni0212 \uni0213 \uni0214 \uni0215 
+	\uni0216 \uni0217 \uni0218 \uni021A \uni021B \uni0237 \circumflex \caron 
+	\uni02C9 \breve \dotaccent \ring \ogonek \tilde \hungarumlaut \uni0307 \uni030F 
+	\uni0311 \uni0326 \Delta \Omega \mu.001 \pi \endash \emdash \quoteleft 
+	\quoteright \quotesinglbase \quotedblleft \quotedblright \quotedblbase 
+	\dagger \daggerdbl \bullet \ellipsis \guilsinglleft \guilsinglright \fraction 
+	\uni2074 \Euro \trademark \estimated \partialdiff \product \summation \minus 
+	\uni2215 \uni2219 \radical \infinity \integral \approxequal \notequal 
+	\lessequal \greaterequal \lozenge \fi \fl \NULL \Scommaaccent \scommaaccent 
+	\_323 \_324 \_325 \_326 \_327 \_328 \_329 \_330 \_331 \_332 \_333 \Ldotaccent 
+	\nonbreakingspace \dotaccentcmb ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

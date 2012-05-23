@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_326" format="1">
+  <advance width="652"/>
+  <outline>
+    <contour>
+      <point x="24" y="1428" type="line"/>
+      <point x="24" y="1482"/>
+      <point x="117" y="1482" type="qcurve" smooth="yes"/>
+      <point x="419" y="1482" type="line"/>
+      <point x="569" y="1112" type="line"/>
+      <point x="334" y="1112" type="line"/>
+    </contour>
+  </outline>
+</glyph>
