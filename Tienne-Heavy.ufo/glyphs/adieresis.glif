@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="adieresis" format="1">
   <advance width="1307"/>
-  <unicode hex="00E4"/>
+  <unicode hex="00e4"/>
   <outline>
     <component base="a" xOffset="-6"/>
     <component base="dieresis" xOffset="32"/>

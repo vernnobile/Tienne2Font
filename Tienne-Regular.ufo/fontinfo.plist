@@ -17,7 +17,7 @@ http://scripts.sil.org/OFL</string>
 	<key>unitsPerEm</key>
 	<integer>2048</integer>
 	<key>xHeight</key>
-	<integer>1040</integer>
+	<integer>416</integer>
 	<key>capHeight</key>
 	<integer>1437</integer>
 	<key>ascender</key>
@@ -67,6 +67,25 @@ http://scripts.sil.org/OFL</string>
 	<string>newt</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
+		<integer>0</integer>
+		<integer>0</integer>
+	</array>
+	<key>openTypeOS2Type</key>
+	<array>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
 		<integer>0</integer>
 		<integer>0</integer>
 	</array>

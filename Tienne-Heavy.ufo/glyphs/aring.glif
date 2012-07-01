@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aring" format="1">
   <advance width="1307"/>
-  <unicode hex="00E5"/>
+  <unicode hex="00e5"/>
   <outline>
     <component base="a" xOffset="-6"/>
     <component base="ring" xOffset="371"/>

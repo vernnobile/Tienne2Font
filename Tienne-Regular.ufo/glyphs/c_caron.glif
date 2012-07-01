@@ -3,7 +3,14 @@
   <advance width="1375"/>
   <unicode hex="010C"/>
   <outline>
-    <component base="C"/>
     <component base="caron" xOffset="197" yOffset="351"/>
+    <component base="C"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

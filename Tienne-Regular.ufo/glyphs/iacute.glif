@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iacute" format="1">
   <advance width="655"/>
-  <unicode hex="00ED"/>
+  <unicode hex="00ed"/>
   <outline>
     <component base="acute" xOffset="-100" yOffset="-80"/>
     <component base="dotlessi"/>

@@ -33,7 +33,8 @@ feature kern {
 } kern;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\uni0000 \uni000D \uni0002 \uni0009 \uni000A \space \exclam 
+@GDEF_Simple = [];
+@GDEF_Ligature = [\uni0000 \uni000D \uni0002 \uni0009 \uni000A \space \exclam 
 	\quotedbl \numbersign \dollar \percent \ampersand \quotesingle \parenleft 
 	\parenright \asterisk \plus \comma \hyphen \period \slash \zero \one \two \three 
 	\four \five \six \seven \eight \nine \colon \semicolon \less \equal \greater 
@@ -72,9 +73,11 @@ feature kern {
 	\estimated \partialdiff \Delta \product \summation \minus \uni2215 \uni2219 
 	\radical \infinity \integral \approxequal \notequal \lessequal \greaterequal 
 	\lozenge \fi \fl \nonmarkingreturn \NULL \glyph265 \glyph268 ];
+@GDEF_Mark = [];
+@GDEF_Component = [];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , , ;
+  GlyphClassDef @GDEF_Simple @GDEF_Ligature @GDEF_Mark @GDEF_Component;
 
 } GDEF;
 

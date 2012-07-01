@@ -2,7 +2,7 @@
 <glyph name="scommaaccent" format="1">
   <advance width="1072"/>
   <outline>
-    <component base="s" xOffset="-20"/>
     <component base="uni0326" xOffset="273" yOffset="-34"/>
+    <component base="s" xOffset="-20"/>
   </outline>
 </glyph>

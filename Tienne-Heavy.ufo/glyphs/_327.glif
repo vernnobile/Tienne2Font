@@ -3,12 +3,13 @@
   <advance width="652"/>
   <outline>
     <contour>
-      <point x="73" y="1223" type="line"/>
-      <point x="223" y="1592" type="line"/>
+      <point x="73" y="1223" type="line" smooth="no"/>
+      <point x="223" y="1592" type="line" smooth="no"/>
       <point x="525" y="1592" type="line" smooth="yes"/>
-      <point x="613" y="1592"/>
-      <point x="618" y="1538" type="qcurve"/>
-      <point x="308" y="1223" type="line"/>
+      <point x="584" y="1592"/>
+      <point x="615" y="1574"/>
+      <point x="618" y="1538" type="curve" smooth="no"/>
+      <point x="308" y="1223" type="line" smooth="no"/>
     </contour>
   </outline>
 </glyph>

@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    </dict>
+<dict>
+	<key>@MMK_L_P_Left</key>
+	<dict>
+		<key>@MMK_R_o_Right</key>
+		<integer>-10</integer>
+		<key>s</key>
+		<integer>-6</integer>
+	</dict>
+	<key>@MMK_L_T_Left</key>
+	<dict>
+		<key>@MMK_R_o_Right</key>
+		<integer>-30</integer>
+	</dict>
+	<key>F</key>
+	<dict>
+		<key>@MMK_R_a_Right</key>
+		<integer>-73</integer>
+		<key>@MMK_R_o_Right</key>
+		<integer>-55</integer>
+		<key>comma</key>
+		<integer>-140</integer>
+		<key>g</key>
+		<integer>-60</integer>
+		<key>period</key>
+		<integer>-180</integer>
+		<key>r</key>
+		<integer>-14</integer>
+		<key>s</key>
+		<integer>-49</integer>
+	</dict>
+	<key>K</key>
+	<dict>
+		<key>@MMK_R_u_Left</key>
+		<integer>-19</integer>
+		<key>@MMK_R_v_Left</key>
+		<integer>-34</integer>
+		<key>@MMK_R_w_Left</key>
+		<integer>-66</integer>
+		<key>@MMK_R_y_Left</key>
+		<integer>-16</integer>
+	</dict>
+	<key>L</key>
+	<dict>
+		<key>quotedblright</key>
+		<integer>-190</integer>
+		<key>quoteright</key>
+		<integer>-210</integer>
+	</dict>
+</dict>
 </plist>
